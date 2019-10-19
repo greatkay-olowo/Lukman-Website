@@ -25,10 +25,27 @@
 .icon-cup,
 .icon-trophy,
 .mu-counter-name,
-.menu-links:hover {
+.menu-links:hover,
+.secondary-colour {
 	color: var(--mainSecondaryColor) !important;
 }
 
 .services-fas {
 	color: var(--mainPrimaryColor) !important;
+}
+
+.team-social-info-btn:hover {
+	color: var(--mainPrimaryColor) !important;
+}
+
+.mu-social-media-a:hover {
+	border-color: var(--mainPrimaryColor) !important;
+	background-color: var(--mainSecondaryColor) !important;
+	color: var(--mainPrimaryColor) !important;
+}
+.mu-send-msg-btn:hover,
+.social-icon-btns:hover {
+	color: var(--mainSecondaryColor);
+	background-color: var(--mainPrimaryColor) !important;
+	border-color: var(--mainPrimaryColor);
 }
