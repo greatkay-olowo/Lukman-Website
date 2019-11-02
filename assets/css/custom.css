@@ -49,3 +49,14 @@
 	background-color: var(--mainPrimaryColor) !important;
 	border-color: var(--mainPrimaryColor);
 }
+
+.navbar-brand {
+	width: 100px;
+}
+
+.logo-text {
+	font-size: 10px;
+	display: inline;
+}
+
+
